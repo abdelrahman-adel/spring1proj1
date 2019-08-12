@@ -8,20 +8,12 @@ public class BinarySearchImpl {
 	
 	@Autowired
 	private SortAlgorithm sortAlgorithm;
-
-	public SortAlgorithm getSortAlgorithm() {
-		return sortAlgorithm;
-	}
-
-	public void setSortAlgorithm(SortAlgorithm sortAlgorithm) {
-		this.sortAlgorithm = sortAlgorithm;
-	}
-
+	
 	public int binarySearch(int[] numbers, int numToSearchFor) {
 		sortAlgorithm.sort(numbers);
 		System.out.println(sortAlgorithm);
-		
-		//search logic
+
+		// search logic
 		return 2;
 	}
 }
