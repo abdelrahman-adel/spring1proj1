@@ -21,16 +21,6 @@ public class Spring1proj1Application {
 
 		int result1 = binarySearchImpl.binarySearch(new int[] { 1, 2, 3 }, 2);
 		System.out.println(result1);
-
-		System.out.println("\n\n");
-
-//		System.out.print("Enter the path you want to rename files in: ");
-//		Scanner consoleInput = new Scanner(System.in);
-//		String path = consoleInput.nextLine();
-//		consoleInput.close();
-//
-//		Renamer renamer = applicationContext.getBean(Renamer.class);
-//		renamer.renameFiles(path);
 	}
 
 }
